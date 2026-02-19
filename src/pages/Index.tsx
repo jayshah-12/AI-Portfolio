@@ -5,9 +5,12 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
+import GridBackground from "@/components/GridBackground";
 
 const Index = () => (
-  <div className="min-h-screen bg-background">
+  <div className="relative min-h-screen bg-background">
+    <GridBackground />
+    <div className="relative z-10">
     <Navbar />
     <Hero />
     <About />
@@ -15,6 +18,7 @@ const Index = () => (
     <Projects />
     <Experience />
     <Contact />
+    </div>
   </div>
 );
 

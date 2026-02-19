@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { ArrowDown, FileDown, FolderOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import GridBackground from "./GridBackground";
+
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <GridBackground />
+      
       <div className="gradient-hero absolute inset-0" />
 
       {/* Floating glow orbs */}
