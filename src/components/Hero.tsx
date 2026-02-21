@@ -70,16 +70,19 @@ const Hero = () => {
             </a>
           </Button>
           <Button
-            asChild
-            size="lg"
-            variant="outline"
-            className="border-secondary/40 text-secondary hover:bg-secondary/10 hover:border-secondary/60 transition-all duration-300 font-mono"
+          asChild
+          size="lg"
+          variant="outline"
+          className="border-secondary/40 text-secondary hover:bg-secondary/10 hover:border-secondary/60 transition-all duration-300 font-mono"
+        >
+          <a
+            href="/JayShah-DataEngineer.pdf"
+            download
           >
-            <a href="#">
-              <FileDown size={18} className="mr-2" />
-              Download Resume
-            </a>
-          </Button>
+            <FileDown size={18} className="mr-2" />
+            Download Resume
+          </a>
+        </Button>
         </motion.div>
       </div>
 
