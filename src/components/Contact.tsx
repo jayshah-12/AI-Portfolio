@@ -5,10 +5,30 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
 const socials = [
-  { icon: Mail, label: "Email", value: "jay@example.com", href: "mailto:jay@example.com" },
-  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/jayshah", href: "#" },
-  { icon: Github, label: "GitHub", value: "github.com/jayshah", href: "#" },
-  { icon: BookOpen, label: "Medium", value: "medium.com/@jayshah", href: "#" },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "jayshah36262@gmail.com",
+    href: "mailto:jayshah36262@gmail.com",
+  },
+  {
+    icon: Linkedin,
+    label: "LinkedIn",
+    value: "linkedin.com/in/jay-shah-de",
+    href: "https://www.linkedin.com/in/jay-shah-de/",
+  },
+  {
+    icon: Github,
+    label: "GitHub",
+    value: "github.com/jayshah-12",
+    href: "https://github.com/jayshah-12",
+  },
+  {
+    icon: BookOpen,
+    label: "Medium",
+    value: "medium.com/@jayshah36262",
+    href: "https://medium.com/@jayshah36262",
+  },
 ];
 
 const Contact = () => (
@@ -77,7 +97,7 @@ const Contact = () => (
     {/* Footer */}
     <div className="max-w-6xl mx-auto mt-24 pt-8 border-t border-border">
       <p className="text-center text-sm text-muted-foreground font-mono">
-        &copy; 2024 Jay Shah — Built with precision & passion
+        {/* &copy; 2024 Jay Shah — Built with precision & passion */}
       </p>
     </div>
   </section>
