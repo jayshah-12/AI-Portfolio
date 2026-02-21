@@ -4,22 +4,22 @@ import { Briefcase } from "lucide-react";
 const timeline = [
   {
     role: "Data Engineer",
-    company: "Company Name",
-    period: "2023 — Present",
+    company: "Go Digital Technology Consulting LLP",
+    period: "2025 — Present",
     desc: "Leading the design and implementation of scalable data platforms, real-time pipelines, and monitoring infrastructure on AWS.",
     current: true,
   },
   {
     role: "Associate Data Engineer",
-    company: "Company Name",
-    period: "2022 — 2023",
+    company: "Go Digital Technology Consulting LLP",
+    period: "2024-2025",
     desc: "Built and maintained ETL pipelines, optimized data warehouse queries, and implemented CI/CD workflows for data infrastructure.",
     current: false,
   },
   {
     role: "Data Engineer Intern",
-    company: "Company Name",
-    period: "2021 — 2022",
+    company: "Go Digital Technology Consulting LLP",
+    period: "2024",
     desc: "Assisted in building data ingestion pipelines, writing SQL transformations, and setting up monitoring dashboards.",
     current: false,
   },

@@ -1,36 +1,73 @@
 import { motion } from "framer-motion";
 import { Database, Cloud, Server, Activity, Brain } from "lucide-react";
-
 const categories = [
   {
     title: "Data Engineering",
     icon: Database,
     color: "primary",
-    skills: ["Apache Spark", "Apache Kafka", "Apache Airflow", "dbt", "Snowflake", "Redshift"],
+    skills: [
+      "Python",
+      "SQL",
+      "PySpark",
+      "ETL Pipelines",
+      "Data Modeling",
+      "Apache Spark",
+      "Data Warehousing",
+      "Kafka"
+    ],
   },
   {
-    title: "Cloud & AWS",
+    title: "Cloud (AWS)",
     icon: Cloud,
     color: "primary",
-    skills: ["S3", "Glue", "Lambda", "EMR", "Athena", "CloudWatch", "Step Functions", "Kinesis"],
+    skills: [
+      "S3",
+      "AWS Glue",
+      "Lambda",
+      "Step Functions",
+      "Athena",
+      "CloudWatch",
+      "EventBridge"
+    ],
   },
   {
-    title: "DevOps & Infra",
+    title: "CI/CD & DevOps",
     icon: Server,
     color: "secondary",
-    skills: ["Terraform", "Docker", "Kubernetes", "GitHub Actions", "Jenkins", "Ansible"],
+    skills: [
+      "GitHub Actions",
+      "Concourse CI",
+      "Docker",
+      "Terraform",
+      "Infrastructure as Code",
+      "Linux"
+    ],
   },
   {
-    title: "Monitoring & Observability",
+    title: "Data & Observability",
     icon: Activity,
     color: "accent",
-    skills: ["Grafana", "Prometheus", "Datadog", "ELK Stack", "CloudWatch", "PagerDuty"],
+    skills: [
+      "Log Monitoring",
+      "CloudWatch Logs",
+      "System Monitoring",
+      "Alerting Systems",
+      "Performance Optimization"
+    ],
   },
   {
-    title: "Machine Learning",
+    title: "AI & Machine Learning",
     icon: Brain,
     color: "secondary",
-    skills: ["Python", "Pandas", "Scikit-learn", "SageMaker", "MLflow", "NumPy"],
+    skills: [
+      "FastAPI",
+      "RAG Systems",
+      "Vector Databases",
+      "Gemini API",
+      "Prompt Engineering",
+      "Pandas",
+      "NumPy"
+    ],
   },
 ];
 
@@ -80,7 +117,7 @@ const Skills = () => (
             </div>
           </motion.div>
         ))}
-      </div>
+      </div>  
     </div>
   </section>
 );
