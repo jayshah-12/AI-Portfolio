@@ -4,4 +4,4 @@ google-genai
 supabase
 python-dotenv
 pgvector
-pydantic+
+pydantic
